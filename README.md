@@ -3,22 +3,25 @@
 **Compilação e execução**
 
 1. Abra algum terminal.
-1. Vá para o diretório Transferência.
-2. Compilar: javac -p ./bin -cp ./src ./src/controle/Main.java
-3. Executar: java -cp ./bin controle.Main
+2. Vá para o diretório Transferência.
+3. Para compilar, digite: 
+      
+       javac -p ./bin -cp ./src ./src/controle/Main.java
+4. Para executar, digite: 
+      
+       java -cp ./bin controle.Main
    
-   Se quiser compilar e executar a partir de outro diretório, apenas substitua os "." pelo caminho até o diretório Transferência.
+Se quiser compilar e executar a partir de outro diretório, apenas substitua os "." pelo caminho até o diretório Transferência.
    
-   Caso queira alterar onde os arquivos .class serão gerados pela compilação apenas mude o "./bin" para o caminho do diretório desejado. Para executar, também substitua o "./bin" pelo mesmo da compilação.
-   
-   
+Caso queira alterar onde os arquivos .class serão gerados pela compilação apenas mude o "./bin" para o caminho do diretório desejado. Para executar, também substitua o "./bin" pelo mesmo da compilação.
    
 **Entrada**
 
   O programa aceita como entrada um arquivo chamado "entrada.txt" que pode ser passado como argumento para a execução. Caso não haja argumento, o programa procurará o arquivo "entrada.txt" no diretório atual aberto.
   
   Exemplo de execução passando o arquivo como argumento:
-      java -cp ./bin controle.Main /home/mauricio/Documents/projects/entrada.txt
+         
+    java -cp ./bin controle.Main /home/mauricio/Documents/projects/entrada.txt
       
   Para o funcionamento correto do código, o arquivo precisa conter em sua segunda linha não vazia os valores das variáveis na mesma ordem que o exemplo de entrada.txt da questão.
 
