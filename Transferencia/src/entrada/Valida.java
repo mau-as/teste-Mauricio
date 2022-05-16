@@ -18,13 +18,6 @@ public class Valida {
             return false;
     }
 
-    public static boolean tipoTransferencia(String tipo_transferencia){
-        if(tipo_transferencia.equals("PIX") || tipo_transferencia.equals("TED") || tipo_transferencia.equals("DOC"))
-            return true;
-        else
-            return false;
-    }
-
     public static boolean nome (String nome_pessoa){
 
         if(nome_pessoa.charAt(0) == ' ' || nome_pessoa.charAt((nome_pessoa.length())-1) == ' ')
