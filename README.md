@@ -1,3 +1,47 @@
+# Sobre o código
+
+**Compilação e execução**
+
+1. Abra algum terminal.
+1. Vá para o diretório Transferência.
+2. Compilar: javac -p ./bin -cp ./src ./src/controle/Main.java
+3. Executar: java -cp ./bin controle.Main
+   
+   Se quiser compilar e executar a partir de outro diretório, apenas substitua os "." pelo caminho até o diretório Transferência.
+   
+   Caso queira alterar onde os arquivos .class serão gerados pela compilação apenas mude o "./bin" para o caminho do diretório desejado. Para executar, também substitua o "./bin" pelo mesmo da compilação.
+   
+   
+   
+**Entrada**
+
+  O programa aceita como entrada um arquivo chamado "entrada.txt" que pode ser passado como argumento para a execução. Caso não haja argumento, o programa procurará o arquivo "entrada.txt" no diretório atual aberto.
+  
+  Exemplo de execução passando o arquivo como argumento:
+      java -cp ./bin controle.Main /home/mauricio/Documents/projects/entrada.txt
+      
+  Para o funcionamento correto do código, o arquivo precisa conter em sua segunda linha não vazia os valores das variáveis na mesma ordem que o exemplo de entrada.txt da questão.
+
+**Saída**
+
+  A saída consiste em prints no terminal em que o código foi executado informando algum possível erro ou o sucesso na transferência.
+  
+**Visão da construção do código**
+
+  O código foi desenvolvido visando a facilidade de manutenção e inclusão de novas features. Por isso, os pacotes e as classes do código foram organizadas buscando minimizar a quantidade de trabalho necessário para a realização de ajustes. Nesse sentido, uma possível inclusão de um tipo de entrada diferente ou de um novo tipo de transferência seriam mais eficientes, por exemplo.
+  
+  A partir da experiência que já tive de dentro do Itaú, tornou-se claro o quão grande a empresa é em todos os sentidos, refletindo na quantidade de seus códigos e suas extensões. Somando isso ao momento de migrações e transições de tecnologias que o banco se encontra, é evidente que o tipo de desenvolvimento que eu busquei é imprescindível ao Itaú.
+
+
+
+
+
+
+
+
+
+
+
 # teste-estag-canais
 
 ![alt text](https://static.vecteezy.com/system/resources/previews/003/326/613/non_2x/software-engineering-concept-for-website-and-mobile-site-vector.jpg)
