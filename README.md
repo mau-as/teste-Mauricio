@@ -27,13 +27,13 @@ Caso queira alterar onde os arquivos .class serão gerados pela compilação ape
   
   As formatações aceitas são:
       
-      id_transferencia: apenas números inteiros
-      valor transferência: valor decimal usando "." ou inteiro. Exemplos: 3.50, 3, 1000.6
-      tipo transferência: "PIX", "TED" ou "DOC"
-      nome_emissor e nome_receptor: apenas letras e espaços, exceto letras acentuadas, ç e espaços no início ou fim
-      agencia_emissor e agencia_receptor: apenas números inteiros
-      conta_emissor e conta_receptor: apenas números inteiros
-      cpf_emissor e cpf_receptor: string no formato "XXX.XXX.XXX-XX" ou "XXXXXXXXXXX", sendo X um número inteiro entre 0 e 9
+    id_transferencia: apenas números inteiros
+    valor transferência: valor decimal usando "." ou inteiro. Exemplos: 3.50, 3, 1000.6
+    tipo transferência: "PIX", "TED" ou "DOC"
+    nome_emissor e nome_receptor: apenas letras e espaços, exceto letras acentuadas, ç e espaços no início ou fim
+    agencia_emissor e agencia_receptor: apenas números inteiros
+    conta_emissor e conta_receptor: apenas números inteiros
+    cpf_emissor e cpf_receptor: string no formato "XXX.XXX.XXX-XX" ou "XXXXXXXXXXX", sendo X um número inteiro entre 0 e 9
       
       
       
