@@ -6,7 +6,7 @@
 2. Vá para o diretório Transferencia.
 3. Para compilar, digite: 
       
-       javac -p ./bin -cp ./src ./src/controle/Main.java
+       javac -d ./bin -cp ./src ./src/controle/Main.java
 4. Para executar, digite: 
       
        java -cp ./bin controle.Main
