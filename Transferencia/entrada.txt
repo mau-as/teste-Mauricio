@@ -1,0 +1,2 @@
+id_transferencia|valor_transferencia|tipo_transferencia|nome_emissor|agencia_emissor|conta_emissor|cpf_emissor|nome_receptor|agencia_receptor|conta_receptor|cpf_receptor
+1|6.555|PIX|Joaoas Freire|1|1234|11111123123|Maria Antonia|1|12346|11211311415
