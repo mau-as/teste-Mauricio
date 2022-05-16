@@ -20,14 +20,17 @@ public class Main {
             transferencia.realizar(dados);
         }
 
-        if(dados[2].equals("TED")){
+        else if(dados[2].equals("TED")){
             TED transferencia = new TED();
             transferencia.realizar(dados);
         }
 
-        if(dados[2].equals("DOC")){
+        else if(dados[2].equals("DOC")){
             DOC transferencia = new DOC();
             transferencia.realizar(dados);
+        }
+        else{
+            throw new FormatoException("o formato do tipo_transferencia está incorreto");
         }
         
     }
