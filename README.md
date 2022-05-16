@@ -11,7 +11,7 @@
       
        java -cp ./bin controle.Main
    
-Se quiser compilar e executar a partir de outro diretório, apenas substitua os "." pelo caminho até o diretório Transferência.
+Se quiser compilar e executar a partir de outro diretório, apenas substitua os "." pelo caminho até o diretório Transferencia.
    
 Caso queira alterar onde os arquivos .class serão gerados pela compilação apenas mude o "./bin" para o caminho do diretório desejado. Para executar, também substitua o "./bin" pelo mesmo da compilação.
    
