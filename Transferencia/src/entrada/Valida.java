@@ -58,37 +58,34 @@ public class Valida {
     public static void dados (String[] dados) throws FormatoException, RegraNegocioException{
 
         if(!inteiro(dados[0])){
-            throw new FormatoException("formato do id_transferencia está incorreto");
+            throw new FormatoException("o formato do id_transferencia está incorreto");
         }
         if(!decimal(dados[1])){
-            throw new FormatoException("formato do valor_transferencia está incorreto");
+            throw new FormatoException("o formato do valor_transferencia está incorreto");
         }   
-        if(!tipoTransferencia(dados[2])){
-            throw new FormatoException("formato do tipo_transferencia está incorreto");
-        }
         if(!nome(dados[3])){
-            throw new FormatoException("formato do nome_emissor está incorreto");
+            throw new FormatoException("o formato do nome_emissor está incorreto");
         }
         if(!inteiro(dados[4])){
-            throw new FormatoException("formato da agencia_emissor está incorreto");
+            throw new FormatoException("o formato da agencia_emissor está incorreto");
         }
         if(!inteiro(dados[5])){
-            throw new FormatoException("formato da conta_emissor está incorreto");
+            throw new FormatoException("o formato da conta_emissor está incorreto");
         }
         if(!cpf(dados[6])){
-            throw new FormatoException("formato do cpf_emissor está incorreto");
+            throw new FormatoException("o formato do cpf_emissor está incorreto");
         }
         if(!nome(dados[7])){
-            throw new FormatoException("formato do nome_receptor está incorreto");
+            throw new FormatoException("o formato do nome_receptor está incorreto");
         }
         if(!inteiro(dados[8])){
-            throw new FormatoException("formato da agencia_receptor está incorreto");
+            throw new FormatoException("o formato da agencia_receptor está incorreto");
         }
         if(!inteiro(dados[9])){
-            throw new FormatoException("formato da conta_receptor está incorreto");
+            throw new FormatoException("o formato da conta_receptor está incorreto");
         }
         if(!cpf(dados[10])){
-            throw new FormatoException("formato do cpf_receptor está incorreto");
+            throw new FormatoException("o formato do cpf_receptor está incorreto");
         }
         if(dados[4].equals(dados[8]) && dados[5].equals(dados[9])){
             throw new RegraNegocioException("não é possível realizar transferência para a mesma conta.");
