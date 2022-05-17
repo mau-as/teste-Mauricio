@@ -20,7 +20,7 @@ public class Arquivo {
             file = new File(args[0]);
         }
         
-        FileReade fr = new FileReader(file);
+        FileReader fr = new FileReader(file);
         BufferedReader br = new BufferedReader(fr);
         
         do{                                      
