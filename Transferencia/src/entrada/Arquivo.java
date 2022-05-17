@@ -19,8 +19,9 @@ public class Arquivo {
         else{
             file = new File(args[0]);
         }
-
-        BufferedReader br = new BufferedReader(new FileReader(file));
+        
+        FileReade fr = new FileReader(file);
+        BufferedReader br = new BufferedReader(fr);
         
         do{                                      
             LinhaDados = br.readLine();               //ignora a linha com o nome das variaveis, tendo em vista que são sempre iguais e na mesma ordem.
@@ -32,7 +33,8 @@ public class Arquivo {
         }while(LinhaDados.isEmpty());                 //sempre pega a segunda linha que contém algo, independente de onde esteja
 
         String[] partsDados = LinhaDados.split("[|]"); //a partir de string, cria array com cada dado em uma posição na mesma ordem que foi passado
-
+        
+        fr.close();
         br.close();
 
         return partsDados;
