@@ -11,10 +11,10 @@ public class Main {
         try{
         String[] dados = new String[11];  
         
-        //le o arquivo e armazena os dados no array dados
+        //lê o arquivo e armazena os dados no array dados
         dados = Arquivo.ler(args);
         
-        //no construtor de transferencia, valida os dados e armazena, na proxima linha realiza a transferencia 
+        //nos métodos "realizar", valida e armazena os dados e também realiza a transferência.
         if(dados[2].equals("PIX")){
             PIX transferencia = new PIX();
             transferencia.realizar(dados);
